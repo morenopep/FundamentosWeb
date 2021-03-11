@@ -42,10 +42,12 @@
                 <br>
 
                 <label for="assunto">Assunto:</label><br>
-                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <textarea name="assunto" id="assunto" cols="60" 
+                rows="5" onkeyup="validaAssunto()"></textarea>
+                <div id="txt-assunto"></div>
                 <br>
                 <br>
-                <button>Enviar</button>
+                <button onclick="enviar()">Enviar</button>
 
             </form>
 
