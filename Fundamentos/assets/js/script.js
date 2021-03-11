@@ -11,15 +11,29 @@ let assunto = document.querySelector('#assunto')
 
 nome.style.width = '50%';
 
-
+//>>>>>>>>>>>>>>VALIDA O CAMPO NOME <<<<<<<<<<<<<<<
 function validaNome(){
-    let txt = document.querySelector('#txt-nome')
+
+    let txtnome = document.querySelector('#txt-nome')
     if (nome.value.length < 3 ){
-        txt.innerHTML = 'nome inválido.'
-        txt.styler.color = 'red'
+        txtnome.innerHTML = 'nome inválido.'
+        txtnome.style.color = 'red'
     } else {
-        txt.innerHTML = "nome Valido"
-        txt.style.color = 'green'
+        txtnome.innerHTML = "nome Valido"
+        txtnome.style.color = 'green'
     }   
     
+}
+
+// >>>>>>>>>>>>>>Valida o Campo Email<<<<<<<<<<<<<<<<<<
+function validaEmail(){
+   let txtemail = document.querySelector('#txt-email')
+
+   if (email.value.indexOf('@') == -1){
+       txtemail.innerHTML = 'E-mail invalido'
+       txtemail.style.color = 'red'       
+   } else{
+       txtemail.innerHTML = 'Email Valido'
+       txtemail.style.color = 'green'
+   }
 }
