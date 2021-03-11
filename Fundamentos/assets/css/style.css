@@ -1,0 +1,64 @@
+        /* ESTILO DA PAGINA INDEX.HTML */
+
+        .conteudo {             
+            background: #6C7A89;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;    
+            }   
+            .box {
+            width: 700px;
+            height: auto;
+            background: rgb(134, 192, 187);
+            text-align: center;
+            }            
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                height: 25px;
+            }
+            body {
+            margin: 0px;
+            } 
+
+            /* >>>>>>>>>>>>>>>>> menu <<<<<<<<<<<<<<<<<<<< */
+            header {            
+                width: 700px;
+                height: 45px;           
+            }
+            
+            #menu li {
+                display: inline;
+                padding: 15px;
+                               
+            }
+
+            #menu li a {
+                text-decoration: none; 
+                color: white;
+                font-size: 15px;
+
+            }            
+            #menu li a:hover{
+                color: grey;
+            }
+
+            /* >>>>>>>>>>>>>>>>>>Rodape<<<<<<<<<<<<<<<<<<<< */
+
+            .tm-social{
+                width: 30px;
+                height: 30px;
+            }
+
+            a {
+                text-decoration: none; 
+            }
+
+
+        
+            
